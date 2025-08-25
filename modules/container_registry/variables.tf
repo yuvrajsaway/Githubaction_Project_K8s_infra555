@@ -1,4 +1,4 @@
-variable "keyvault_name" {}
-variable "location" {}
+variable "acr" {}
 variable "resource_group_name" {}
+variable "location" {}
 variable "tags" {}
