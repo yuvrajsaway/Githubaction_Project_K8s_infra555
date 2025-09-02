@@ -6,7 +6,7 @@ on:
   push:
    
 jobs:
-  build:
+  build: mera code
     runs-on: self-hosted
     steps:
     - name: Checkout
