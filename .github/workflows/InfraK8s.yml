@@ -16,7 +16,14 @@ jobs:
       uses: hashicorp/setup-terraform@v2.0.3
       with:
         terraform_version: 1.13.1
-
+        
+    
+    - name: Terraform Format
+      id: fmt
+      run: |
+        terraform fmt -check -recursive -diff
+    
+    
     - name: Terraform Init
       id: init
       run: terraform init -lock=false -input=false
