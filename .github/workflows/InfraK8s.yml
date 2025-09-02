@@ -6,7 +6,7 @@ on:
   push:
    
 jobs:
-  build: mera code
+  Yuvi-Terraform-deploy: 
     runs-on: self-hosted
     steps:
     - name: Checkout
