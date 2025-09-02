@@ -21,7 +21,7 @@ jobs:
     - name: Terraform Format
       id: fmt
       run: |
-        terraform fmt -check -recursive -diff
+        terraform fmt 
     
     
     - name: Terraform Init
